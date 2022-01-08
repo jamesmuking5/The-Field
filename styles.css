@@ -6,7 +6,7 @@
 .top-header {
     font-family: Arial;
     color: whitesmoke;
-    background-color: salmon;
+    background-color: red;
     border-radius: 25px;
     font-size: 35px;
     justify-content: center;
@@ -19,6 +19,17 @@
     font-size: 50px;
     text-align: center;
 }
+
+.inside-header_2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.inside-header_3 {
+    font-size: 35px;
+    text-align: center;
+}
+
 
 h3 {
     font-weight: 1000;
@@ -33,20 +44,21 @@ h3 {
     padding: 10px;
     justify-content: center;
     text-align: center;
+    color: rgb(204, 176, 176);
 }
 
 .box-1 {
     flex: 2;
-    background-color: aqua;
+    background-color: rgb(104, 148, 148);
 }
 
 .box-2 {
     flex: 1;
-    background-color: rgb(0, 219, 0);
+    background-color: rgb(110, 148, 110);
 }
 
 .box-3 {
     flex: 2;
-    background-color: red;
+    background-color: rgb(143, 90, 90);
 }
  
